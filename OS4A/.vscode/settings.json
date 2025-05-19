@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "iterator": "cpp",
+        "thread": "cpp",
+        "iosfwd": "cpp",
+        "filesystem": "cpp",
+        "algorithm": "cpp",
+        "xiosbase": "cpp",
+        "xutility": "cpp"
+    }
+}

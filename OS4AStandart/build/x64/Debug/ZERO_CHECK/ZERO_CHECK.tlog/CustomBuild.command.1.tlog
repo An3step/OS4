@@ -1,0 +1,10 @@
+^C:\USERS\АНТОН\DESKTOP\OS4\OS4\BUILD\CMAKEFILES\674D0D7262511726846CAB6DA73386A0\GENERATE.STAMP.RULE
+setlocal
+C:\Apps\CMake\bin\cmake.exe -SC:/Users/Антон/Desktop/OS4/OS4 -BC:/Users/Антон/Desktop/OS4/OS4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Антон/Desktop/OS4/OS4/build/Receiver.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

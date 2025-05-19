@@ -1,0 +1,3 @@
+C:/Apps/VS Code/CPP Projects/OS4A2/build/CMakeFiles/Receiver.dir
+C:/Apps/VS Code/CPP Projects/OS4A2/build/CMakeFiles/ALL_BUILD.dir
+C:/Apps/VS Code/CPP Projects/OS4A2/build/CMakeFiles/ZERO_CHECK.dir

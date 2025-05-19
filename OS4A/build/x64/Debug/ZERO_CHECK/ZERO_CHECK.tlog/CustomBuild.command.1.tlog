@@ -1,0 +1,10 @@
+^C:\APPS\VS CODE\CPP PROJECTS\OS4A2\BUILD\CMAKEFILES\06A81549B3B593738749257B123D4BA8\GENERATE.STAMP.RULE
+setlocal
+C:\Apps\CMake\bin\cmake.exe "-SC:/Apps/VS Code/CPP Projects/OS4A2" "-BC:/Apps/VS Code/CPP Projects/OS4A2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Apps/VS Code/CPP Projects/OS4A2/build/Receiver.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

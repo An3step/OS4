@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FE80B130-FDCE-3034-9818-C3C34E2277A2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ReceiverTests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Антон\Desktop\OS4\OS4_Test\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ReceiverTests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ReceiverTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Антон\Desktop\OS4\OS4_Test\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ReceiverTests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ReceiverTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Антон\Desktop\OS4\OS4_Test\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ReceiverTests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ReceiverTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Антон\Desktop\OS4\OS4_Test\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ReceiverTests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ReceiverTests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Антон/Desktop/OS4/OS4_Test/build/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Apps/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Антон/Desktop/OS4/OS4_Test/build/Debug/ReceiverTests.exe -installedDir C:/Users/Антон/Desktop/OS4/OS4_Test/build/vcpkg_installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>vcpkg_installed\x64-windows\debug\lib\gmock.lib;vcpkg_installed\x64-windows\debug\lib\manual-link\gtest_main.lib;vcpkg_installed\x64-windows\debug\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Антон/Desktop/OS4/OS4_Test/build/Debug/ReceiverTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Антон/Desktop/OS4/OS4_Test/build/Debug/ReceiverTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Антон/Desktop/OS4/OS4_Test/build/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Apps/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Антон/Desktop/OS4/OS4_Test/build/Release/ReceiverTests.exe -installedDir C:/Users/Антон/Desktop/OS4/OS4_Test/build/vcpkg_installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>vcpkg_installed\x64-windows\lib\gmock.lib;vcpkg_installed\x64-windows\lib\manual-link\gtest_main.lib;vcpkg_installed\x64-windows\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Антон/Desktop/OS4/OS4_Test/build/Release/ReceiverTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Антон/Desktop/OS4/OS4_Test/build/Release/ReceiverTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Антон/Desktop/OS4/OS4_Test/build/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Apps/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Антон/Desktop/OS4/OS4_Test/build/MinSizeRel/ReceiverTests.exe -installedDir C:/Users/Антон/Desktop/OS4/OS4_Test/build/vcpkg_installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>vcpkg_installed\x64-windows\lib\gmock.lib;vcpkg_installed\x64-windows\lib\manual-link\gtest_main.lib;vcpkg_installed\x64-windows\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Антон/Desktop/OS4/OS4_Test/build/MinSizeRel/ReceiverTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Антон/Desktop/OS4/OS4_Test/build/MinSizeRel/ReceiverTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Антон/Desktop/OS4/OS4_Test/build/vcpkg_installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Apps/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/Антон/Desktop/OS4/OS4_Test/build/RelWithDebInfo/ReceiverTests.exe -installedDir C:/Users/Антон/Desktop/OS4/OS4_Test/build/vcpkg_installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>vcpkg_installed\x64-windows\lib\gmock.lib;vcpkg_installed\x64-windows\lib\manual-link\gtest_main.lib;vcpkg_installed\x64-windows\lib\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Антон/Desktop/OS4/OS4_Test/build/RelWithDebInfo/ReceiverTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Антон/Desktop/OS4/OS4_Test/build/RelWithDebInfo/ReceiverTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Антон\Desktop\OS4\OS4_Test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Антон/Desktop/OS4/OS4_Test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Apps\CMake\bin\cmake.exe -SC:/Users/Антон/Desktop/OS4/OS4_Test -BC:/Users/Антон/Desktop/OS4/OS4_Test/build --check-stamp-file C:/Users/Антон/Desktop/OS4/OS4_Test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Apps\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\vcpkg-configuration.json;C:\Users\Антон\Desktop\OS4\OS4_Test\vcpkg.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Антон/Desktop/OS4/OS4_Test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Apps\CMake\bin\cmake.exe -SC:/Users/Антон/Desktop/OS4/OS4_Test -BC:/Users/Антон/Desktop/OS4/OS4_Test/build --check-stamp-file C:/Users/Антон/Desktop/OS4/OS4_Test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Apps\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\vcpkg-configuration.json;C:\Users\Антон\Desktop\OS4\OS4_Test\vcpkg.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Антон/Desktop/OS4/OS4_Test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Apps\CMake\bin\cmake.exe -SC:/Users/Антон/Desktop/OS4/OS4_Test -BC:/Users/Антон/Desktop/OS4/OS4_Test/build --check-stamp-file C:/Users/Антон/Desktop/OS4/OS4_Test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Apps\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\vcpkg-configuration.json;C:\Users\Антон\Desktop\OS4\OS4_Test\vcpkg.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Антон/Desktop/OS4/OS4_Test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Apps\CMake\bin\cmake.exe -SC:/Users/Антон/Desktop/OS4/OS4_Test -BC:/Users/Антон/Desktop/OS4/OS4_Test/build --check-stamp-file C:/Users/Антон/Desktop/OS4/OS4_Test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Apps\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Apps\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\build\vcpkg_installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\Антон\Desktop\OS4\OS4_Test\vcpkg-configuration.json;C:\Users\Антон\Desktop\OS4\OS4_Test\vcpkg.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Антон\Desktop\OS4\OS4_Test\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Антон\Desktop\OS4\OS4_Test\Receiver_func_test.cpp" />
+    <ClCompile Include="C:\Users\Антон\Desktop\OS4\OS4_Test\Receiver_func.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Антон\Desktop\OS4\OS4_Test\build\ZERO_CHECK.vcxproj">
+      <Project>{40BE43DF-30E5-3F3D-8AEE-4022CCF87369}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

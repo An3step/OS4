@@ -1,0 +1,4 @@
+C:/Users/Антон/Desktop/OS4/OS4_Test/build/CMakeFiles/ReceiverTests.dir
+C:/Users/Антон/Desktop/OS4/OS4_Test/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Антон/Desktop/OS4/OS4_Test/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Антон/Desktop/OS4/OS4_Test/build/CMakeFiles/ZERO_CHECK.dir

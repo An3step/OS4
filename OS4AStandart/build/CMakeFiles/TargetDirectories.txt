@@ -1,0 +1,3 @@
+C:/Users/Антон/Desktop/OS4/OS4/build/CMakeFiles/Receiver.dir
+C:/Users/Антон/Desktop/OS4/OS4/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Антон/Desktop/OS4/OS4/build/CMakeFiles/ZERO_CHECK.dir
